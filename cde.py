@@ -33,7 +33,7 @@ def layout(*args):
         bottom=0,
         margin=px(0, 0, 0, 0),
         width=percent(100),
-        color="black",
+        color="white",
         text_align="center",
         height="1",
         opacity=0.85
@@ -70,10 +70,7 @@ def layout(*args):
 
 def footer():
     myargs = [
-        "©️ PrakharJaiswal ", "                       ",
-        link("https://www.linkedin.com/in", image('https://icons.getbootstrap.com/assets/icons/linkedin.svg')),
-        "     ",  
-        link("https://www.instagram.com/prakhar2111",image('https://icons.getbootstrap.com/assets/icons/instagram.svg')),
+        "©️ PrakharJaiswal "
     ]
     layout(*myargs)
 def meand(x):
